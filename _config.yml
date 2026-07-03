@@ -3,6 +3,7 @@ collections:
     output: false
   lapcomp:
     output: true
+    permalink: /:collection/:name/
 gems:
   - jekyll-redirect-from
 whitelist:
