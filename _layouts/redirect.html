@@ -5,9 +5,14 @@ layout: null
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url={{ page.goto }}">
-  <title>Redirect</title>
+  <title>Redirecting...</title>
+  <script>
+    window.location.replace('{{ page.goto }}');
+  </script>
 </head>
 <body>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url={{ page.goto }}">
+  </noscript>
 </body>
 </html>
