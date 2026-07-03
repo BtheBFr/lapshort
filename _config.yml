@@ -1,5 +1,7 @@
 collections:
   go:
+    output: false
+  lapcomp:
     output: true
 gems:
   - jekyll-redirect-from
