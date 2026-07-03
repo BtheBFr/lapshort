@@ -1,1 +1,2 @@
-https://zvuk.com/favorites
+goto: https://zvuk.com
+layout: redirect
